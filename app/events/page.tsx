@@ -10,7 +10,7 @@ const events = [
     title: "Tequilab Party by MANU-CHBE-BMEG",
     description: "Disco at the lab with tons of tequila",
     date: "February 6, 7:00 pm, Engineering Student Centre",
-    image: "/esc-party-copy.JPG",
+    image: "/tequilab.jpg",
     ctaText: "RSVP & Tickets",
     ctaLink: "https://www.bouncelife.com/events/696f0969efd1a7d2bcf50960",
   },
