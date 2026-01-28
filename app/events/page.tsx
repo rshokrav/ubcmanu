@@ -7,8 +7,8 @@ import { ArrowRight } from "lucide-react"
 const events = [
   {
     id: 3,
-    title: "MANU-CHBE-BMEG Tequilab Party",
-    description: "2$ beers",
+    title: "Tequilab Party by MANU-CHBE-BMEG",
+    description: "Disco at the lab with tons of tequila",
     date: "February 6, 7:00 pm, Engineering Student Centre",
     image: "/esc-party-copy.JPG",
     ctaText: "RSVP & Tickets",
