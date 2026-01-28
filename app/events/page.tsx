@@ -6,31 +6,13 @@ import { ArrowRight } from "lucide-react"
 
 const events = [
   {
-    id: 1,
-    title: "MANU-IGEN-BMEG Pre E-Week Party",
-    description: "The party before the storm",
-    date: "January 9, 9:00 pm, IGEN Shop",
-    image: "/ubceng-cairn.jpg",
-    ctaText: "No RSVP required; just pull up.",
-    ctaLink: "#",
-  },
-  {
-    id: 2,
-    title: "E-Week Opening Ceremony",
-    description: "It all starts with a boat race",
-    date: "January 11, 10:00 pm-12:00 am, Engineering Student Centre",
-    image: "/boatrace.jpg",
-    ctaText: "Fill out participation form!",
-    ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLSeDwuJdEryVU-z2UffyDLqPrmTHXMT08cHh_4Z6s9_5pq29xw/viewform",
-  },
-  {
     id: 3,
-    title: "MANU-CHBE-BMEG Party",
+    title: "MANU-CHBE-BMEG Tequilab Party",
     description: "2$ beers",
     date: "February 6, 7:00 pm, Engineering Student Centre",
     image: "/esc-party-copy.JPG",
-    ctaText: "RSVP available soon!",
-    ctaLink: "#",
+    ctaText: "RSVP & Tickets",
+    ctaLink: "https://www.bouncelife.com/events/696f0969efd1a7d2bcf50960",
   },
   {
     id: 4,
