@@ -26,8 +26,8 @@ const events = [
   {
     id: 3,
     title: "MANU Ski Day",
-    description: "Nightskiing at Cypress",
-    date: "February 7, 5:00-10:00 pm, Cypress Mountain",
+    description: "Nightskiing at Cypress. Date and Time is tentative due to weather conditions.",
+    date: "Tentatively February 7, 5:00-10:00 pm, Cypress Mountain",
     image: "/aerial-whistler.jpeg",
     ctaText: "Interest form",
     ctaLink:
