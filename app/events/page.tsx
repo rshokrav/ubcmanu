@@ -6,7 +6,16 @@ import { ArrowRight } from "lucide-react"
 
 const events = [
   {
-    id: 3,
+    id: 1,
+    title: "Beef & Pizza: Term 1 Course Review",
+    description: "Got beef with your courses? Chat about it over some pizza!🍕 Whether you’re locked in or completely cooked, come by",
+    date: "February 3, 2:00 pm, Frank Forward 217",
+    image: "/beefandpizza.jpg",
+    ctaText: "RSVP available soon",
+    ctaLink: "",
+  },
+  {
+    id: 2,
     title: "Tequilab Party by MANU-CHBE-BMEG",
     description: "Disco at the lab with tons of tequila",
     date: "February 6, 7:00 pm, Engineering Student Centre",
@@ -15,7 +24,7 @@ const events = [
     ctaLink: "https://www.bouncelife.com/events/696f0969efd1a7d2bcf50960",
   },
   {
-    id: 4,
+    id: 3,
     title: "MANU-IGEN Ski Trip",
     description: "Overnight (maybe) ski trip",
     date: "To be announced",
