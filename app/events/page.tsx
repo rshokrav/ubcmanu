@@ -11,8 +11,8 @@ const events = [
     description: "Got beef with your courses? Chat about it over some pizza!🍕 Whether you’re locked in or completely cooked, come by",
     date: "February 3, 2:00 pm, Frank Forward 217",
     image: "/beefandpizza.png",
-    ctaText: "RSVP available soon",
-    ctaLink: "",
+    ctaText: "RSVP",
+    ctaLink: "https://forms.gle/VNYA7PSggghwba7N7",
   },
   {
     id: 2,
