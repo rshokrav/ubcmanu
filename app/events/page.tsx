@@ -10,7 +10,7 @@ const events = [
     title: "Beef & Pizza: Term 1 Course Review",
     description: "Got beef with your courses? Chat about it over some pizza!🍕 Whether you’re locked in or completely cooked, come by",
     date: "February 3, 2:00 pm, Frank Forward 217",
-    image: "/beefandpizza.jpg",
+    image: "/beefandpizza.png",
     ctaText: "RSVP available soon",
     ctaLink: "",
   },
