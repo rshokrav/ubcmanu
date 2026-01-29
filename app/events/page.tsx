@@ -25,9 +25,9 @@ const events = [
   },
   {
     id: 3,
-    title: "MANU-IGEN Ski Trip",
-    description: "Overnight (maybe) ski trip",
-    date: "To be announced",
+    title: "MANU Ski Day",
+    description: "Nightskiing at Cypress",
+    date: "February 7, 5:00-10:00 pm, Cypress Mountain",
     image: "/aerial-whistler.jpeg",
     ctaText: "Interest form",
     ctaLink:
