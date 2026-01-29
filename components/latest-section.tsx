@@ -55,6 +55,9 @@ export function LatestSection() {
             <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
               <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
               <h3 className="text-2xl md:text-3xl font-bold mt-2">Tequilab Party by MANU-BMEG-CHBE</h3>
+              <p className="text-base text-muted-foreground">
+                Pronounced Teh-Key-Lab, not ticky-lab like Omar says it. Don't be like Omar. 
+              </p>
             </div>
           </div>
 
