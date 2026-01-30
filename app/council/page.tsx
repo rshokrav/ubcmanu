@@ -20,7 +20,7 @@ export default function CouncilPage() {
     { name: "Katrina Warren", title: "Vice President - Student Life", image: "/katrina.jpg?height=150&width=150" },
     { name: "Nicholas Ressl", title: "Vice President - Academic", image: "/nick.jpg?height=150&width=150" },
     { name: "Sam Zhang", title: "Vice President - Academic", image: "/sam-copy.JPG?height=150&width=150" },
-    { name: "Hazimah Ahda Qolbi", title: "4th-Year Representative", image: "/ahda.jpg?height=150&width=150" },
+    { name: "Hazimah Ahda Qolbi", title: "4-th Year Representative", image: "/ahda.jpg?height=150&width=150" },
     { name: "Kaito Dapremont Shimamura", title: "3rd-Year Representative", image: "/poser.JPG?height=150&width=150" },
     {
       name: "Iris Wong",

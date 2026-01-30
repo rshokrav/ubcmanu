@@ -47,38 +47,19 @@ export function LatestSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
             <div className="aspect-[4/3] bg-muted relative overflow-hidden">
               <img
-                src="/tequilab.jpg?height=400&width=500"
+                src="/ubceng-cairn.jpg?height=400&width=500"
                 alt="Tutoring: CPEN 223"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
               <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">Tequilab Party by MANU-BMEG-CHBE</h3>
-              <p className="text-base text-muted-foreground">
-                Pronounced Teh-Key-Lab, not ticky-lab like Omar says it. Don't be like Omar. 
-              </p>
+              <h3 className="text-2xl md:text-3xl font-bold mt-2">MANU-IGEN-BMEG Pre E-Week Party</h3>
             </div>
           </div>
 
           {/* Empty space - Bottom Right (or additional content if needed) */}
-          <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
-            <div className="aspect-[4/3] bg-muted relative overflow-hidden">
-              <img
-                src="/aerial-whistler.jpeg?height=400&width=500"
-                alt="Tutoring: CPEN 223"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
-              <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">MANU Ski Trip!!!</h3>
-              <p className="text-base text-muted-foreground">
-                Nightskiing at Cypress and you choose the date and time; see Events for more info! 
-              </p>
-            </div>
-          </div>
-          {/* <div className="hidden md:block"></div> */}
+          <div className="hidden md:block"></div>
         </div>
       </div>
     </section>

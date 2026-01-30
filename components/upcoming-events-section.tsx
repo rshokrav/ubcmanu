@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button"
 
 export function UpcomingEventsSection() {
   const events = [
-    "Beef & Pizza: Term 1 Course Review",
-    "Tequilab Party by MANU-BMEG-CHBE",
-    "MANU Nightskiing Trip at Cypress",
+    "MANU-IGEN-BMEG Pre E-Week Party",
+    "E-Week Opening Ceremony",
+    "MANU-CHBE-BMEG Party",
+    "MANU-IGEN Ski Trip",
   ]
 
   return (
