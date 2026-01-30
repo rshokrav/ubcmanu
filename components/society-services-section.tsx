@@ -55,9 +55,9 @@ export function SocietyServicesSection() {
     <section className="py-16 md:py-24 bg-[var(--off-white)] bg-card text-card-foreground">
       <div className="container mx-auto px-4">
         {/* Heading and subtitle */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">What does the Society do?</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">What does the Society do?</h2>
+          <p className="text-sm md:text-lg lg:text-xl text-muted-foreground mb-4 md:mb-8">
             The Society provides many services to MANU students
           </p>
 

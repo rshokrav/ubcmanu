@@ -67,47 +67,56 @@ export function Header() {
       </nav>
 
       {/* Mobile Navigation - Visible only on mobile */}
-      <nav className="md:hidden">
-        <div className="flex items-center justify-between px-4 py-3">
+      <nav className="md:hidden relative">
+        {/* Thin header bar with logo sticking out */}
+        <div className="flex items-center justify-between px-4 py-1 h-10">
           {/* Menu Button - Left side */}
           <button
             onClick={toggleMenu}
-            className="text-[#FFFFFF] p-2 hover:opacity-80 transition-opacity"
+            className="text-[#FFFFFF] p-1 hover:opacity-80 transition-opacity"
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
 
-          {/* Logo - Right side */}
-          <Link href="/" className="flex items-center">
-            <div className="relative w-12 h-12">
+          {/* Logo - Far right, sticking out below header */}
+          <Link href="/" className="absolute right-4 top-1/2 -translate-y-1/3">
+            <div className="relative w-14 h-14">
               <Image
                 src="/manu-logo-copy.png"
                 alt="MANU Logo"
-                width={48}
-                height={48}
-                className="object-contain"
+                width={56}
+                height={56}
+                className="object-contain drop-shadow-lg"
                 priority
               />
             </div>
           </Link>
         </div>
 
-        {/* Mobile Dropdown Menu */}
-        {isMenuOpen && (
+        {/* Mobile Dropdown Menu with animation */}
+        <div 
+          className={`
+            overflow-hidden transition-all duration-300 ease-in-out
+            ${isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}
+          `}
+        >
           <div className="bg-[#680000] border-t border-[#FFFFFF]/20 px-4 py-2">
-            {navLinks.map((link) => (
+            {navLinks.map((link, index) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-[#FFFFFF] text-base font-medium py-3 hover:opacity-80 transition-opacity border-b border-[#FFFFFF]/10 last:border-b-0"
+                className="block text-[#FFFFFF] text-sm font-medium py-2.5 hover:opacity-80 transition-opacity border-b border-[#FFFFFF]/10 last:border-b-0"
+                style={{
+                  animationDelay: `${index * 50}ms`,
+                }}
               >
                 {link.label}
               </Link>
             ))}
           </div>
-        )}
+        </div>
       </nav>
     </header>
   )

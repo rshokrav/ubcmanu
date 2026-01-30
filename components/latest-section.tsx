@@ -3,8 +3,8 @@ export function LatestSection() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">The Latest</h2>
+        <div className="text-center mb-8 md:mb-16">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold">The Latest</h2>
         </div>
 
         {/* Grid Layout */}
@@ -18,9 +18,9 @@ export function LatestSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="p-6 bg-[rgba(252,250,246,1)]">
-              <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Recent Events</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2 mb-3">2025 Annual Welcome Mixer</h3>
+            <div className="p-4 md:p-6 bg-[rgba(252,250,246,1)]">
+              <span className="text-xs md:text-sm font-medium text-muted-foreground uppercase tracking-wide">Recent Events</span>
+              <h3 className="text-lg md:text-2xl lg:text-3xl font-bold mt-1 md:mt-2 mb-2 md:mb-3">2025 Annual Welcome Mixer</h3>
               <p className="text-base text-muted-foreground">
                 Our Welcome Mixer brought together students, faculty, and staff from across Manufacturing Engineering.
               </p>
@@ -29,17 +29,17 @@ export function LatestSection() {
 
           {/* Spotlight - Top Right */}
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
-            <div className="p-6 flex flex-col items-center text-center h-full justify-center py-12 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
-              <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-6">Spotlight</span>
-              <div className="w-60 h-60 rounded-full bg-[var(--burgundy)] mb-6 flex items-center justify-center overflow-hidden">
+            <div className="p-4 md:p-6 flex flex-col items-center text-center h-full justify-center py-8 md:py-12 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
+              <span className="text-xs md:text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4 md:mb-6">Spotlight</span>
+              <div className="w-32 h-32 md:w-60 md:h-60 rounded-full bg-[var(--burgundy)] mb-4 md:mb-6 flex items-center justify-center overflow-hidden">
                 <img
                   src="/omar.jpg?height=160&width=160"
                   alt="Society Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-2">Muhammed Omar Khan</h3>
-              <p className="text-base text-muted-foreground">Society President for 2025-2026</p>
+              <h3 className="text-lg md:text-2xl lg:text-3xl font-bold mb-1 md:mb-2">Muhammed Omar Khan</h3>
+              <p className="text-sm md:text-base text-muted-foreground">Society President for 2025-2026</p>
             </div>
           </div>
 
@@ -52,9 +52,9 @@ export function LatestSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
-              <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">MANU-IGEN-BMEG Pre E-Week Party</h3>
+            <div className="p-4 md:p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
+              <span className="text-xs md:text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
+              <h3 className="text-lg md:text-2xl lg:text-3xl font-bold mt-1 md:mt-2">MANU-IGEN-BMEG Pre E-Week Party</h3>
             </div>
           </div>
 
