@@ -25,13 +25,13 @@ const events = [
   },
   {
     id: 3,
-    title: "MANU Ski Day",
-    description: "Nightskiing at Cypress. Date and Time is tentative due to weather conditions.",
-    date: "Tentatively February 7, 5:00-10:00 pm, Cypress Mountain",
+    title: "MANU Ski Trip!!!",
+    description: "Nightskiing at Cypress and you choose the date and time; P.S. drivers get reimbursed for gas and parking🤑(must have winter tires)",
+    date: "Choose one of Feb 7th, 8th, 13th, 14th or 15th; all running 5:00-10:00 pm at Cypress Mountain. Sign up for your preferred date and time in the form below.",
     image: "/aerial-whistler.jpeg",
-    ctaText: "Interest form",
+    ctaText: "Sign up form",
     ctaLink:
-      "https://docs.google.com/forms/d/1_bx6Tk7rPlpZX05DViiDFNLdrROSmUyoah0G4WYklqY/viewform?edit_requested=true",
+      "https://forms.gle/VEM9XMPKjYcmYrRk6",
   },
 ]
 
