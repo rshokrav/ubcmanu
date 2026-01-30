@@ -5,7 +5,7 @@ export function UpcomingEventsSection() {
   const events = [
     "Beef & Pizza: Term 1 Course Review",
     "Tequilab Party by MANU-BMEG-CHBE",
-    "MANU-IGEN Ski Trip",
+    "MANU Nightskiing Trip at Cypress",
   ]
 
   return (
