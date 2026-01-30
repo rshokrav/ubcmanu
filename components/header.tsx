@@ -69,7 +69,7 @@ export function Header() {
       {/* Mobile Navigation - Visible only on mobile */}
       <nav className="md:hidden relative">
         {/* Thin header bar with logo sticking out */}
-        <div className="flex items-center justify-between px-4 py-1 h-13">
+        <div className="flex items-center justify-between px-4 py-1 h-14">
           {/* Menu Button - Left side */}
           <button
             onClick={toggleMenu}
