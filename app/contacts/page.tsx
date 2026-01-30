@@ -7,14 +7,15 @@ export default function ContactsPage() {
   const contacts = [
     { title: "President", name: "Muhammed Omar Khan", email: "ubcmanu.president@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Finance", name: "Juan Velasquez", email: "ubcmanu.treasurer@gmail.com" }, // REPLACE with actual email
-    { title: "Vice President - Student Life", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
+    { title: "Vice President - Student Life, E-Week Representative", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
     { title: "Vice President - Student Life", name: "Katrina Warren", email: "ubcmanu.social@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Academic", name: "Nicholas Ressl", email: "ubcmanu.academic@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Academic", name: "Sam Zhang", email: "ubcmanu.academic@gmail.com" }, // REPLACE with actual email
-    { title: "Clubroom Manager", name: "Iris Wong", email: "NA" }, // REPLACE with actual email
-    { title: "E-Week Representative", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
+    { title: "2nd-Year Representatie, Clubroom Manager", name: "Iris Wong", email: "NA" },
+    { title: "3rd-Year Representative", name: "Kaito Dapremont Shimamura", email: "k.dapr.shim@gmail.com" },
+    { title: "4th-Year Representative", name: "Hazimah Ahda Qolbi", email: "NA" },
     { title: "Communications Representative", name: "Richie Kong", email: "ubcmanu.social@gmail.com" }, // REPLACE with actual email
-
+    { title: "Professional Development Representative", name: "Ryan Shokravi", email: "rshokrav@student.ubc.ca" }, // REPLACE with actual email
   ]
 
   const socials = [
