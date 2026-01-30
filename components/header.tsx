@@ -20,7 +20,7 @@ export function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-67 w-full bg-[#680000]">
+    <header className="sticky top-0 z-50 w-full bg-[#680000]">
       {/* Desktop Navigation - Hidden on mobile */}
       <nav className="hidden md:flex mx-auto items-center justify-between px-6 py-4 lg:px-12">
         {/* Left Navigation */}
@@ -69,7 +69,7 @@ export function Header() {
       {/* Mobile Navigation - Visible only on mobile */}
       <nav className="md:hidden relative">
         {/* Thin header bar with logo sticking out */}
-        <div className="flex items-center justify-between px-4 py-1 h-10">
+        <div className="flex items-center justify-between px-4 py-1 h-13">
           {/* Menu Button - Left side */}
           <button
             onClick={toggleMenu}
