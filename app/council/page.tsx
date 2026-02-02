@@ -59,7 +59,7 @@ export default function CouncilPage() {
           <h2 className="text-3xl text-center mb-12 md:text-3xl overline font-medium">Council Members</h2>
 
           {/* President Card - Full Width */}
-          <div className="mb-10">
+          <div className="mb-8">
             <div className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-8 bg-[rgba(252,251,247,1)]">
               <div className="flex items-center gap-8">
                 <div className="relative w-24 h-24 md:w-40 md:h-40 flex-shrink-0">
@@ -80,7 +80,7 @@ export default function CouncilPage() {
           </div>
 
           {/* Senior Members - 2 Column Grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
             {seniorMembers.map((member, index) => (
               <div
                 key={index}
