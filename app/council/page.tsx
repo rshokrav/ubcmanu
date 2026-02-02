@@ -62,7 +62,7 @@ export default function CouncilPage() {
           <div className="mb-8">
             <div className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-8 bg-[rgba(252,251,247,1)]">
               <div className="flex items-center gap-8">
-                <div className="relative w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
+                <div className="relative w-24 h-24 md:w-40 md:h-40 flex-shrink-0">
                   <Image
                     src={president.image || "/placeholder.svg"}
                     alt={president.name}
