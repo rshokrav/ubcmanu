@@ -56,8 +56,8 @@ export function SocietyServicesSection() {
       <div className="container mx-auto px-4">
         {/* Heading and subtitle */}
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">What does the Society do?</h2>
-          <p className="text-sm md:text-lg lg:text-xl text-muted-foreground mb-4 md:mb-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">What does the Society do?</h2>
+          <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-4 md:mb-8">
             The Society provides many services to MANU students
           </p>
 
