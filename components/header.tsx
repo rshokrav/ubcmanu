@@ -87,7 +87,7 @@ export function Header() {
                 alt="MANU Logo"
                 width={56}
                 height={56}
-                className="object-contain drop-shadow-lg"
+                className="object-contain"
                 priority
               />
             </div>
