@@ -73,7 +73,7 @@ export default function CouncilPage() {
                 </div>
                 <div>
                   <h3 className="text-2xl mb:text-3xl font-bold mb-1">{president.name}</h3>
-                  <p className="text-gray-600 text-lg">{president.title}</p>
+                  <p className="text-gray-600 text-md md:text-lg">{president.title}</p>
                 </div>
               </div>
             </div>
