@@ -1,21 +1,26 @@
+"use client"
+
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Link from "next/link"
 import Image from "next/image"
+import { useState } from "react"
+import { ChevronDown } from "lucide-react"
 
 export default function ContactsPage() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
+
   const contacts = [
     { title: "President", name: "Muhammed Omar Khan", email: "ubcmanu.president@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Finance", name: "Juan Velasquez", email: "ubcmanu.treasurer@gmail.com" }, // REPLACE with actual email
-    { title: "Vice President - Student Life, E-Week Representative", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
+    { title: "Vice President - Student Life", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
     { title: "Vice President - Student Life", name: "Katrina Warren", email: "ubcmanu.social@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Academic", name: "Nicholas Ressl", email: "ubcmanu.academic@gmail.com" }, // REPLACE with actual email
     { title: "Vice President - Academic", name: "Sam Zhang", email: "ubcmanu.academic@gmail.com" }, // REPLACE with actual email
-    { title: "2nd-Year Representatie, Clubroom Manager", name: "Iris Wong", email: "NA" },
-    { title: "3rd-Year Representative", name: "Kaito Dapremont Shimamura", email: "k.dapr.shim@gmail.com" },
-    { title: "4th-Year Representative", name: "Hazimah Ahda Qolbi", email: "NA" },
+    { title: "Clubroom Manager", name: "Iris Wong", email: "NA" }, // REPLACE with actual email
+    { title: "E-Week Representative", name: "Owen Dustin", email: "NA" }, // REPLACE with actual email
     { title: "Communications Representative", name: "Richie Kong", email: "ubcmanu.social@gmail.com" }, // REPLACE with actual email
-    { title: "Professional Development Representative", name: "Ryan Shokravi", email: "rshokrav@student.ubc.ca" }, // REPLACE with actual email
+
   ]
 
   const socials = [
@@ -25,16 +30,20 @@ export default function ContactsPage() {
     { name: "YouTube", icon: "/yt-icon2.png?height=200&width=200", url: "https://www.youtube.com/@ubcmanu-tube3689" },
   ]
 
+  const toggleAccordion = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index)
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-[#F6F0E4]">
       <Header />
 
       <main className="flex-1">
         {/* Title Section */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16 bg-card">
-          <h1 className="text-5xl font-bold mb-16 md:text-5xl text-left">Contacts and Directory</h1>
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-12 py-8 md:py-16 bg-card">
+          <h1 className="text-3xl md:text-5xl font-bold mb-8 md:mb-16 text-left">Contacts and Directory</h1>
 
-           {/* Desktop Contacts Table - Hidden on mobile */}
+          {/* Desktop Contacts Table - Hidden on mobile */}
           <div className="hidden md:block bg-white rounded-2xl shadow-lg overflow-hidden mb-24 transition-shadow duration-300 hover:shadow-xl">
             <table className="w-full">
               <thead>
