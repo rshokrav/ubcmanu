@@ -26,7 +26,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Left Side - Tagline */}
           <div>
-            <p className="text-xs leading-relaxed md:text-sm">
+            <p className="text-xs md:text-sm leading-relaxed">
               Precision in every step,
               <br />
               Manufacturing a better tomorrow.
@@ -34,7 +34,7 @@ export function Footer() {
           </div>
 
           {/* Right Side - Contact Info */}
-          <div className="text-xs space-y-2 md:text-sm">
+          <div className="text-xs md:text-sm space-y-2">
             <p>ubcmanu.social@gmail.com</p>
             <p>101-2275 East Mall, Vancouver, BC V6T 1Z4</p>
             <p>(___) ___-____</p>
@@ -43,7 +43,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/20 pt-8">
-          <p className="text-xs opacity-90 md:text-sm">
+          <p className="text-xs md:text-sm opacity-90">
             Manufacturing Engineering Undergraduate Student Society at the University of British Columbia © 2025 All
             Rights Reserved
           </p>
