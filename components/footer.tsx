@@ -9,16 +9,16 @@ export function Footer() {
         {/* Social Icons */}
         <div className="flex gap-4 mb-12">
           <Link href="https://discord.com/invite/fXmMyszBYe" className="hover:opacity-80 transition-opacity" aria-label="Discord">
-            <DiscordIcon className="w-4 md:w-8 h-3 md:h-6" />
+            <DiscordIcon className="w-6 md:w-8 h-4.5 md:h-6" />
           </Link>
           <Link href="https://www.instagram.com/ubcmanu" className="hover:opacity-80 transition-opacity" aria-label="Instagram">
-            <Instagram className="w-3 md:w-6 h-3 md:h-6" />
+            <Instagram className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
           <Link href="/news" className="hover:opacity-80 transition-opacity" aria-label="LinkedIn">
-            <Linkedin className="w-3 md:w-6 h-3 md:h-6" />
+            <Linkedin className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
           <Link href="https://www.youtube.com/@ubcmanu-tube3689" className="hover:opacity-80 transition-opacity" aria-label="YouTube">
-            <Youtube className="w-3 md:w-6 h-3 md:h-6" />
+            <Youtube className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
         </div>
 
