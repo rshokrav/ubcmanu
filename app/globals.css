@@ -37,6 +37,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --burgundy: #680000;
+  --off-white: #F6F0E4;
+  --card-blue: #DEE9FF;
 }
 
 .dark {
@@ -78,7 +81,6 @@
   --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
   --font-serif: "Noto Serif", "Noto Serif Fallback", serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
-  --card-blue: #dee9ff;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
