@@ -79,8 +79,13 @@ export function Header() {
             {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
 
-          {/* Logo - Far right, sticking out below header */}
-          <Link href="/" className="absolute right-4 top-1/2 -translate-y-1/3">
+          {/* Logo - Far right, sticking out below header - Fades out when menu opens */}
+          <Link 
+            href="/" 
+            className={`absolute right-4 top-1/2 -translate-y-1/3 transition-opacity duration-300 ${
+              isMenuOpen ? "opacity-0 pointer-events-none" : "opacity-100"
+            }`}
+          >
             <div className="relative w-14 h-14">
               <Image
                 src="/manu-logo-copy.png"
