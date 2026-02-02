@@ -9,16 +9,16 @@ export function Footer() {
         {/* Social Icons */}
         <div className="flex gap-4 mb-12">
           <Link href="https://discord.com/invite/fXmMyszBYe" className="hover:opacity-80 transition-opacity" aria-label="Discord">
-            <DiscordIcon className="w-8 h-6" />
+            <DiscordIcon className="w-6 md:w-8 h-4.5 md:h-6" />
           </Link>
           <Link href="https://www.instagram.com/ubcmanu" className="hover:opacity-80 transition-opacity" aria-label="Instagram">
-            <Instagram className="w-6 h-6" />
+            <Instagram className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
           <Link href="/news" className="hover:opacity-80 transition-opacity" aria-label="LinkedIn">
-            <Linkedin className="w-6 h-6" />
+            <Linkedin className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
           <Link href="https://www.youtube.com/@ubcmanu-tube3689" className="hover:opacity-80 transition-opacity" aria-label="YouTube">
-            <Youtube className="w-6 h-6" />
+            <Youtube className="w-4.5 md:w-6 h-4.5 md:h-6" />
           </Link>
         </div>
 
@@ -26,7 +26,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Left Side - Tagline */}
           <div>
-            <p className="text-lg leading-relaxed md:text-sm">
+            <p className="text-xs leading-relaxed md:text-sm">
               Precision in every step,
               <br />
               Manufacturing a better tomorrow.
@@ -34,7 +34,7 @@ export function Footer() {
           </div>
 
           {/* Right Side - Contact Info */}
-          <div className="text-lg space-y-2 md:text-sm">
+          <div className="text-xs space-y-2 md:text-sm">
             <p>ubcmanu.social@gmail.com</p>
             <p>101-2275 East Mall, Vancouver, BC V6T 1Z4</p>
             <p>(___) ___-____</p>
@@ -43,7 +43,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/20 pt-8">
-          <p className="text-sm opacity-90 md:text-sm">
+          <p className="text-xs opacity-90 md:text-sm">
             Manufacturing Engineering Undergraduate Student Society at the University of British Columbia © 2025 All
             Rights Reserved
           </p>
