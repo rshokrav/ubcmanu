@@ -38,9 +38,9 @@ export default function ContactsPage() {
             <table className="w-full">
               <thead>
                 <tr className="bg-[#E57373]">
-                  <th className="text-left px-8 py-5 text-xs mb:text-xl font-bold my-0 bg-blue-200">Title</th>
-                  <th className="text-left px-8 py-5 text-xs mb:text-xl font-bold bg-blue-200">Name</th>
-                  <th className="text-left px-8 py-5 text-xs mb:text-xl font-bold bg-blue-200">Contact</th>
+                  <th className="text-left px-8 py-5 text-xs md:text-xl font-bold my-0 bg-blue-200">Title</th>
+                  <th className="text-left px-8 py-5 text-xs md:text-xl font-bold bg-blue-200">Name</th>
+                  <th className="text-left px-8 py-5 text-xs md:text-xl font-bold bg-blue-200">Contact</th>
                 </tr>
               </thead>
               <tbody>
