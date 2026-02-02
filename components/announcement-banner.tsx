@@ -15,7 +15,7 @@ export function AnnouncementBanner() {
         <div className="flex items-center justify-between px-6 gap-4 py-3 mx-0 my-0 shadow-sm">
           <p className="text-1xl md:text-sm text-[#680000]">Announcement: Fill out E-Week Interest Form to particpate in events!</p>
           <div className="flex items-center gap-4">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeDwuJdEryVU-z2UffyDLqPrmTHXMT08cHh_4Z6s9_5pq29xw/viewform?usp=dialog" className="text-sm text-[#680000] underline hover:opacity-70 transition-opacity">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeDwuJdEryVU-z2UffyDLqPrmTHXMT08cHh_4Z6s9_5pq29xw/viewform?usp=dialog" className="text-1xl text-[#680000] underline hover:opacity-70 transition-opacity">
               Fill out form
             </Link>
             <button
