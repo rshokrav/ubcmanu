@@ -72,15 +72,15 @@ export default function CouncilPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl mb:text-3xl font-bold mb-1">{president.name}</h3>
-                  <p className="text-gray-600 text-md md:text-lg">{president.title}</p>
+                  <h3 className="text-sm mb:text-3xl font-bold mb-1">{president.name}</h3>
+                  <p className="text-gray-600 text-xs md:text-lg">{president.title}</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Senior Members - 2 Column Grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-10">
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
             {seniorMembers.map((member, index) => (
               <div
                 key={index}
