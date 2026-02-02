@@ -80,7 +80,7 @@ export default function CouncilPage() {
           </div>
 
           {/* Senior Members - 2 Column Grid */}
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
             {seniorMembers.map((member, index) => (
               <div
                 key={index}
