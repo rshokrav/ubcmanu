@@ -20,7 +20,7 @@ export default function CouncilPage() {
     { name: "Katrina Warren", title: "Vice President - Student Life", image: "/katrina.jpg?height=150&width=150" },
     { name: "Nicholas Ressl", title: "Vice President - Academic", image: "/nick.jpg?height=150&width=150" },
     { name: "Sam Zhang", title: "Vice President - Academic", image: "/sam-copy.JPG?height=150&width=150" },
-    { name: "Hazimah Ahda Qolbi", title: "4th-Year Representative", image: "/ahda.jpg?height=150&width=150" },
+    { name: "Hazimah Ahda Qolbi", title: "4-th Year Representative", image: "/ahda.jpg?height=150&width=150" },
     { name: "Kaito Dapremont Shimamura", title: "3rd-Year Representative", image: "/poser.JPG?height=150&width=150" },
     {
       name: "Iris Wong",
@@ -62,7 +62,7 @@ export default function CouncilPage() {
           <div className="mb-8">
             <div className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-8 bg-[rgba(252,251,247,1)]">
               <div className="flex items-center gap-8">
-                <div className="relative w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
+                <div className="relative w-24 h-24 md:w-40 md:h-40 flex-shrink-0">
                   <Image
                     src={president.image || "/placeholder.svg"}
                     alt={president.name}
@@ -72,8 +72,8 @@ export default function CouncilPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold mb-1">{president.name}</h3>
-                  <p className="text-gray-600 text-lg">{president.title}</p>
+                  <h3 className="text-sm mb:text-3xl font-bold mb-1">{president.name}</h3>
+                  <p className="text-gray-600 text-xs md:text-lg">{president.title}</p>
                 </div>
               </div>
             </div>
@@ -97,8 +97,8 @@ export default function CouncilPage() {
                     />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                    <p className="text-gray-600 text-sm">{member.title}</p>
+                    <h3 className="text-sm mb:text-xl font-bold mb-1">{member.name}</h3>
+                    <p className="text-gray-600 text-xs mb:text-sm">{member.title}</p>
                   </div>
                 </div>
               </div>
