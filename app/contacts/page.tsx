@@ -49,9 +49,9 @@ export default function ContactsPage() {
                     key={index}
                     className="border-b border-gray-200 last:border-b-0 hover:bg-gray-50 transition-colors"
                   >
-                    <td className="px-8 py-6 text-lg font-medium">{contact.title}</td>
-                    <td className="px-8 py-6 text-lg">{contact.name}</td>
-                    <td className="px-8 py-6 text-lg">
+                    <td className="px-8 py-6 text-sm md:text-lg font-medium">{contact.title}</td>
+                    <td className="px-8 py-6 text-sm md:text-lg">{contact.name}</td>
+                    <td className="px-8 py-6 text-sm md:text-lg">
                       <a
                         href={`mailto:${contact.email}`}
                         className="text-[#680000] hover:opacity-70 transition-opacity underline"
