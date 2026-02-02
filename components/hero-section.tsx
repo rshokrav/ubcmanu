@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="w-full">
       {/* Title Section with off-white background */}
       <div className="bg-[#F6F0E4] px-4 md:px-6 text-center bg-card py-8 md:py-16 my-3">
-        <h1 className="text-3xl md:text-5xl lg:text-7xl text-black leading-tight mb-2 md:mb-4 font-extrabold">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl text-black leading-tight mb-2 md:mb-4 font-extrabold">
           Manufacturing Engineering
           <br />
           Undergrad Student Society
