@@ -64,7 +64,7 @@ export function SocietyServicesSection() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Link href="/council">
-              <Button className="bg-black text-white hover:bg-black/90 transition-colors rounded-full px-6 py-2 text-base font-medium">
+              <Button className="bg-black text-white hover:bg-black/90 transition-colors rounded-full px-6 py-2 text-base text-sm md:text-mb font-medium">
                 Get Involved
               </Button>
             </Link>
