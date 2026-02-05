@@ -126,7 +126,7 @@ export default function ContactsPage() {
             ))}
           </div>
 
-          {/* Social Media Section */}
+          {/* Social Media Section -- same for web and mobile */}
           <div className="mb-16">
             <h2 className="text-5xl font-bold text-[#680000] mb-12 text-foreground md:text-5xl">Find Us on Socials</h2>
 
