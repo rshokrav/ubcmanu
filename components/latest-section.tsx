@@ -47,16 +47,16 @@ export function LatestSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
             <div className="aspect-[4/3] bg-muted relative overflow-hidden">
               <img
-                src="/tequilab.jpg?height=400&width=500"
+                src="/TMMC.jpeg?height=400&width=500"
                 alt="Tutoring: CPEN 223"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
               <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">Tequilab Party by MANU-BMEG-CHBE</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mt-2">Toyota Factory Tour @ Cambridge, ON</h3>
               <p className="text-base text-muted-foreground">
-                Pronounced Teh-Key-Lab, not ticky-lab like Omar says it. Don't be like Omar. 
+                Visit Toyota's factory in Cambridge during an 3-day trip to Toronto
               </p>
             </div>
           </div>
@@ -65,16 +65,16 @@ export function LatestSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
             <div className="aspect-[4/3] bg-muted relative overflow-hidden">
               <img
-                src="/aerial-whistler.jpeg?height=400&width=500"
+                src="/storm-the-wall.jpeg?height=400&width=500"
                 alt="Tutoring: CPEN 223"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
               <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">MANU Ski Trip!!!</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mt-2">Storm the Wall with MANU</h3>
               <p className="text-base text-muted-foreground">
-                Nightskiing at Cypress and you choose the date and time; see Events for more info! 
+                Sign up for UBC Rec's Storm the Wall with MANU! 
               </p>
             </div>
           </div>
