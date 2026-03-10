@@ -7,31 +7,21 @@ import { ArrowRight } from "lucide-react"
 const events = [
   {
     id: 1,
-    title: "Beef & Pizza: Term 1 Course Review",
-    description: "Got beef with your courses? Chat about it over some pizza!🍕 Whether you’re locked in or completely cooked, come by",
-    date: "February 3, 2:00 pm, Frank Forward 217",
-    image: "/beefandpizza.png",
-    ctaText: "RSVP",
-    ctaLink: "https://forms.gle/VNYA7PSggghwba7N7",
+    title: "Toyota Factory Tour @ Cambridge, ON",
+    description: "Wanna see the magic of TPS on a 3-day trip to Toronto? Sign up for a chance to come on the trip!",
+    date: "April 1st-4th, Cambridge & Toronto",
+    image: "/TMMC.jpeg",
+    ctaText: "Sign up for the trip lottery.",
+    ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLSdKr-MvmueEZ2ZUuGdipJ75wDyPpwmCINr7rxGvsXD19ybaQw/viewform?usp=header",
   },
   {
     id: 2,
-    title: "Tequilab Party by MANU-CHBE-BMEG",
-    description: "Disco at the lab with tons of tequila",
-    date: "February 6, 7:00 pm, Engineering Student Centre",
-    image: "/tequilab.jpg",
-    ctaText: "RSVP & Tickets",
-    ctaLink: "https://www.bouncelife.com/events/696f0969efd1a7d2bcf50960",
-  },
-  {
-    id: 3,
-    title: "MANU Ski Trip!!!",
-    description: "Nightskiing at Cypress and you choose the date and time; P.S. drivers get reimbursed for gas and parking🤑(must have winter tires)",
-    date: "Choose one of Feb 7th, 8th, 13th, 14th or 15th; all running 5:00-10:00 pm at Cypress Mountain. Sign up for your preferred date and time in the form below.",
-    image: "/aerial-whistler.jpeg",
-    ctaText: "Sign up form",
-    ctaLink:
-      "https://forms.gle/VEM9XMPKjYcmYrRk6",
+    title: "Storm the Wall with MANU",
+    description: "Whether you wanna get competetive (and take on MECH) or you're just trying to have fun, represent MANU in UBC Rec's Storm the Wall.",
+    date: "March 22-25, UBC Campus",
+    image: "/storm-the-wall.jpg",
+    ctaText: "Sign up by March 13",
+    ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwot2QZzR80DhS4XCEB1SRv77Z96l1_RDKIyGxRAJLCXD1Xw/viewform?usp=dialog",
   },
 ]
 
