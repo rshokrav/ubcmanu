@@ -47,7 +47,7 @@ export function LatestSection() {
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border">
             <div className="aspect-[4/3] bg-muted relative overflow-hidden">
               <img
-                src="/TMMC.jpeg?height=400&width=500"
+                src="/TMMC2.png?height=400&width=500"
                 alt="Tutoring: CPEN 223"
                 className="w-full h-full object-cover"
               />
