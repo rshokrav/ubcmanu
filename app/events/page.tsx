@@ -19,7 +19,7 @@ const events = [
     title: "Storm the Wall with MANU",
     description: "Whether you wanna get competetive (and take on MECH) or you're just trying to have fun, represent MANU in UBC Rec's Storm the Wall.",
     date: "March 22-25, UBC Campus",
-    image: "/storm-the-wall.jpg",
+    image: "/storm-the-wall.jpeg",
     ctaText: "Sign up by March 13",
     ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwot2QZzR80DhS4XCEB1SRv77Z96l1_RDKIyGxRAJLCXD1Xw/viewform?usp=dialog",
   },
