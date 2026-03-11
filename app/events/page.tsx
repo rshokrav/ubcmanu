@@ -10,7 +10,7 @@ const events = [
     title: "Toyota Factory Tour @ Cambridge, ON",
     description: "Wanna see the magic of TPS on a 3-day trip to Toronto? Sign up for a chance to come on the trip!",
     date: "April 1st-4th, Cambridge & Toronto",
-    image: "/TMMC2.png",
+    image: "/TMMC4.png",
     ctaText: "Sign up for the trip lottery.",
     ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLSdKr-MvmueEZ2ZUuGdipJ75wDyPpwmCINr7rxGvsXD19ybaQw/viewform?usp=header",
   },
