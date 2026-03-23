@@ -72,7 +72,7 @@ export function LatestSection() {
             </div>
             <div className="p-6 bg-[rgba(252,250,246,1)] border-[rgba(252,251,247,1)]">
               <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Upcoming event</span>
-              <h3 className="text-2xl md:text-3xl font-bold mt-2">Vancouver Whitecaps vs. New York FC/h3>
+              <h3 className="text-2xl md:text-3xl font-bold mt-2">Vancouver Whitecaps vs. New York FC</h3>
               <p className="text-base text-muted-foreground">
                 Join students in MANU, MECH, CIVL and CHBE for an MLS match at BC Place
               </p>
