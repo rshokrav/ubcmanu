@@ -16,12 +16,12 @@ const events = [
   },
   {
     id: 2,
-    title: "Storm the Wall with MANU",
-    description: "Whether you wanna get competetive (and take on MECH) or you're just trying to have fun, represent MANU in UBC Rec's Storm the Wall.",
-    date: "March 22-25, UBC Campus",
-    image: "/storm-the-wall.jpeg",
-    ctaText: "Sign up by March 13",
-    ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwot2QZzR80DhS4XCEB1SRv77Z96l1_RDKIyGxRAJLCXD1Xw/viewform?usp=dialog",
+    title: "Vancouver Whitecaps vs. New York FC",
+    description: "Join students in MANU, MECH, CIVL and CHBE for an MLS match at BC Place",
+    date: "April 11th 4:30 pm, BC Place",
+    image: "/vwfc-nyfc.jpeg",
+    ctaText: "Link",
+    ctaLink: "https://am.ticketmaster.com/whitecaps/promotional-page?id=MTU3MQ%3D%3D&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYSUAKsdlzUNRst3WTD6XyaQfVzAxZvZqQ8TfJhNkrMuCFcMotK_Wp5qNOkQ_aem_QlOK1Ii4qcgZwKdUvP2R_Q",
   },
 ]
 
