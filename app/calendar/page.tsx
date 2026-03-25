@@ -17,7 +17,7 @@ export default function CalendarPage() {
             {/* START: INSERT YOUR GOOGLE CALENDAR IFRAME HERE */}
 
             <iframe
-              src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FVancouver&showPrint=0&src=ZWJmZDJhMmFjMTZmYzNhODViMDdlODExYjk5ZmFmYjBlYzlmOTkzY2FhMzRiZDA2MTRlYjFhMTAzOTAyYWM2NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23680000"
+              src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=America%2FVancouver&showPrint=0&src=ZWJmZDJhMmFjMTZmYzNhODViMDdlODExYjk5ZmFmYjBlYzlmOTkzY2FhMzRiZDA2MTRlYjFhMTAzOTAyYWM2NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23680000"
               style={{ border: 0 }}
               width="100%"
               height="600"
